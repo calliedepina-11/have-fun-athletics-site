@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --coral: #E8614A;
+  --coral-dk: #B83D2A;
+  --d950: #111110;
+  --d900: #1C1B19;
+  --d800: #2A2826;
+  --d700: #3A3835;
+  --d600: #4E4C48;
+  --l50: #FDFCFB;
+  --l200: #F0EDE8;
+  --l300: #E4E0D8;
+  --g400: #C8C4BC;
+  --g500: #8A8680;
+}
+
+@theme inline {
+  --color-coral: #E8614A;
+  --color-coral-dk: #B83D2A;
+  --color-d950: #111110;
+  --color-d900: #1C1B19;
+  --color-d800: #2A2826;
+  --color-d700: #3A3835;
+  --color-d600: #4E4C48;
+  --color-l50: #FDFCFB;
+  --color-l200: #F0EDE8;
+  --color-l300: #E4E0D8;
+  --color-g400: #C8C4BC;
+  --color-g500: #8A8680;
+  --font-display: var(--font-bebas);
+  --font-body: var(--font-figtree);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hero image */
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: var(--font-figtree), sans-serif;
+  background: var(--d950);
+  color: var(--l200);
+}
