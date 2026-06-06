@@ -285,13 +285,13 @@ export default function AboutPage() {
                       </p>
                     ))}
                   </div>
-                  {member.cta && (
+                  {member.cta && 'href' in member.cta && (
                     <Link
-                      href={member.cta.href}
+                      href={(member.cta as {href: string; label: string}).href}
                       className="inline-block mt-5 text-sm transition-opacity hover:opacity-70"
                       style={{ color: "var(--coral)" }}
                     >
-                      {member.cta.label}
+                      {(member.cta as {href: string; label: string}).label}
                     </Link>
                   )}
                 </div>
