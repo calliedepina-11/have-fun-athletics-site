@@ -26,7 +26,7 @@ export const home = {
     label: "Have Fun Athletics",
     headline: "Train Hard.\nHave Fun.",
     body: "We don't just train athletes. We build athletes who love to train.",
-    sub: "Inaugural program: Grades 5–12 · Winthrop, MA · Summer 2026",
+    sub: "Performance Training program launching Summer 2026 · Grades 5–12 · Winthrop, MA",
     cta: { label: "See Our Programs →", href: "/programs" },
     image: "/home_hero.jpg",
   },
@@ -101,7 +101,8 @@ Our inaugural program. Outdoor athletic training for athletes in grades 5–12 b
 We train the whole athlete. Speed, agility, strength, conditioning, and the mental habits that separate good athletes from great ones.
       `,
       schedule: "Thursdays · Grades 5–8: 5:00–5:45pm / Grades 9–12: 6:00–7:00pm",
-      pricing: "$20/session drop-in · First class free · Pay by Venmo on site",
+      location: "Coughlin Park · Winthrop, MA",
+      pricing: "$20/session · First class free · Pay by Venmo on site",
       tags: ["Grades 5–12", "Winthrop, MA", "Outdoor Sessions", "Summer 2026"],
       cta: { label: "Sign Up →", href: "/register", style: "coral" as const },
     },

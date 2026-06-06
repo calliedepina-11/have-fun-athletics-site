@@ -19,6 +19,8 @@ export default function RegisterPage() {
     lastName: "",
     email: "",
     grade: "",
+    sports: "",
+    goals: "",
     notes: "",
   });
 
@@ -67,7 +69,7 @@ export default function RegisterPage() {
               Sign Up.
             </h1>
             <p className="text-[15px] leading-[1.65]" style={{ color: "var(--g400)" }}>
-              {prog.description.split("\n\n")[0]} Sign up isn't required, but we love to get to know our athletes so we can tailor our programs.
+              Sign up below — we love to get to know our athletes so we can tailor our programs. First session is on us.
             </p>
           </div>
 
@@ -89,6 +91,17 @@ export default function RegisterPage() {
                 </span>
               ))}
             </div>
+            {prog.location && (
+              <div>
+                <span
+                  className="block text-[11px] tracking-[0.18em] uppercase mb-1"
+                  style={{ fontFamily: "var(--font-bebas)", color: "var(--coral)" }}
+                >
+                  Location
+                </span>
+                <p className="text-[14px]" style={{ color: "var(--l200)" }}>{prog.location}</p>
+              </div>
+            )}
             {prog.schedule && (
               <div>
                 <span
@@ -179,13 +192,41 @@ export default function RegisterPage() {
                 />
               </Field>
 
-              {/* Notes */}
+              {/* Sports */}
+              <Field label="What sports does the athlete play?">
+                <Input
+                  value={form.sports}
+                  onChange={(v) => set("sports", v)}
+                  placeholder="e.g. Baseball, soccer, track..."
+                />
+              </Field>
+
+              {/* Goals */}
+              <Field label="What are their main goals?">
+                <textarea
+                  value={form.goals}
+                  onChange={(e) => set("goals", e.target.value)}
+                  placeholder="e.g. Get faster, build strength, improve conditioning..."
+                  rows={3}
+                  className="w-full px-4 py-3 rounded-sm text-[15px] leading-[1.6] resize-none outline-none transition-colors"
+                  style={{
+                    fontFamily: "var(--font-figtree)",
+                    background: "var(--d800)",
+                    color: "var(--l200)",
+                    border: "1px solid var(--d600)",
+                  }}
+                  onFocus={(e) => (e.target.style.borderColor = "var(--coral)")}
+                  onBlur={(e) => (e.target.style.borderColor = "var(--d600)")}
+                />
+              </Field>
+
+              {/* Anything else */}
               <Field label="Anything else we should know?">
                 <textarea
                   value={form.notes}
                   onChange={(e) => set("notes", e.target.value)}
-                  placeholder="Goals, questions, schedule constraints..."
-                  rows={4}
+                  placeholder="Questions, schedule constraints, injuries, anything..."
+                  rows={3}
                   className="w-full px-4 py-3 rounded-sm text-[15px] leading-[1.6] resize-none outline-none transition-colors"
                   style={{
                     fontFamily: "var(--font-figtree)",

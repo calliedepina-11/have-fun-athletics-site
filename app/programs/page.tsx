@@ -88,11 +88,16 @@ export default function ProgramsPage() {
                 </p>
               ))}
             </div>
-            {(prog.schedule || prog.pricing) && (
+            {(prog.location || prog.schedule || prog.pricing) && (
               <div
                 className="mb-5 p-4 rounded-sm"
                 style={{ background: "var(--d800)", borderLeft: "3px solid var(--coral)" }}
               >
+                {prog.location && (
+                  <p className="text-sm leading-relaxed mb-1" style={{ color: "var(--l200)" }}>
+                    <span style={{ color: "var(--g400)" }}>Location: </span>{prog.location}
+                  </p>
+                )}
                 {prog.schedule && (
                   <p className="text-sm leading-relaxed mb-1" style={{ color: "var(--l200)" }}>
                     <span style={{ color: "var(--g400)" }}>Schedule: </span>{prog.schedule}
