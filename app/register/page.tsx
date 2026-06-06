@@ -123,9 +123,6 @@ export default function RegisterPage() {
               >
                 See You Out There.
               </div>
-              <p className="text-[15px] leading-[1.7] mb-8" style={{ color: "var(--l200)" }}>
-                We'll be in touch with everything you need to show up. First class is on us.
-              </p>
               <Link
                 href="/"
                 className="inline-block py-4 px-8 rounded-sm text-lg tracking-[0.1em] transition-opacity hover:opacity-90"
