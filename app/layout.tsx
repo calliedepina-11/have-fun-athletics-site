@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://havefunathletics.com/home_hero.jpg",
-        width: 5472,
-        height: 3648,
+        url: "https://havefunathletics.com/og-image.jpg",
+        width: 1200,
+        height: 800,
         alt: "Have Fun Athletics — Train Hard. Have Fun.",
       },
     ],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Have Fun Athletics — Train Hard. Have Fun.",
     description: "Outdoor athletic training for grades 5–12 in Winthrop, MA. Summer 2026.",
-    images: ["https://havefunathletics.com/home_hero.jpg"],
+    images: ["https://havefunathletics.com/og-image.jpg"],
   },
 };
 
