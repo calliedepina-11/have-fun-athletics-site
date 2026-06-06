@@ -207,37 +207,37 @@ Have Fun Athletics exists to carry that forward. Not as a slogan. As a standard.
     members: [
       {
         name: "John DePina",
-        role: "Performance Training · Personal Coaching",
+        role: "Co-Founder · Performance Training · Personal Coaching",
         bio: `
 John grew up in Cape Verde, where soccer was everything. He moved to the US at 14, earned All-Star and MVP honors his senior year, then played D1 soccer at West Virginia University and D3 at Massachusetts College of Liberal Arts, with time as a semi-professional player along the way.
 
-Injuries from years of high-level play forced him to get intentional — the right muscles, footwork, agility, mobility. He didn't get that kind of training until college, and believes that gap contributed to the injuries. It's a big part of why this work matters so much for younger athletes.
+Injuries from years of high-level play forced him to get intentional about his training — the right muscles, footwork, agility, mobility — which didn't happen until college. He believes that gap contributed to the injuries and that's a big part of why this work matters so much for younger athletes.
         `,
-        cta: { label: "Learn about personal training →", href: "/programs" },
+        cta: null,
         image: "/about_03.jpeg", // John DePina training
         objectPosition: "top",
       },
       {
         name: "Jordy Allard",
-        role: "Baseball Coaching · Performance Training",
+        role: "Co-Founder · Baseball Coaching · Performance Training",
         bio: `
 Jordy grew up on a farm in Woodstock, Vermont and figured out early that creativity and hard work beat shortcuts every time. He pitched at every NCAA division, including Northeastern University, and played in the Cape Cod Baseball League in 2022. He also founded Primal Baseball, an online training program built on discipline, consistency, and mental toughness.
 
 Jordy is Bobby's oldest grandchild — the one who gave him the nickname as a baby, and the one Bobby traveled across the country to watch play. Baseball was their bond. Coaching is how he carries that forward.
         `,
-        cta: { label: "Learn about baseball coaching →", href: "/programs" },
+        cta: null,
         image: "/about_02.jpeg", // Jordy Allard pitching
         objectPosition: "top",
       },
       {
         name: "Callie DePina",
-        role: "Founder · Have Fun Athletics",
+        role: "Co-Founder · Run Coaching · Strength Training",
         bio: `
-Tennis was Callie's sport growing up. She played at Tufts University, where she quickly realized she'd been a big fish in a small pond — and found running. She's been at it ever since.
+Callie built Have Fun Athletics with her husband John and her nephew Jordy. That's either a great business plan or a very good excuse to spend more time with her favorite people. Probably both.
 
-Over the years she practiced Mysore-style Ashtanga yoga, traveling to India to deepen her practice. A few years ago she ran the Berlin Marathon and caught the racing bug — Boston followed, then Barcelona. She works with a coach and has found enormous value in guided training, even with decades of athletic experience behind her.
+Her own relationship with fitness has taken her everywhere. From India to practice yoga, to Berlin, Boston, and Barcelona (so far!) to run marathons. She doesn't dabble — she dives in, and that's what led her to find a running coach and discover what she's capable of with someone in her corner and guiding her.
 
-Before every tennis match in high school, her dad left her something — a note, a clipping, a quote. He kept it up through college. The handwriting that runs through this brand is his. Have Fun Athletics is built on everything he taught her.
+This brand exists so other young athletes can discover what good training actually feels like. The note at the top of this page is one of many her dad Bobby left for her. She kept every one.
         `,
         cta: null,
         image: "/about_04.jpeg", // Callie DePina racing
