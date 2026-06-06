@@ -204,7 +204,7 @@ Have Fun Athletics exists to carry that forward. Not as a slogan. As a standard.
   team: {
     label: "Meet The Team",
     headline: "The People Behind It.",
-    sub: "Coaches first. Family always.",
+    sub: "",
     members: [
       {
         name: "John DePina",
@@ -234,9 +234,9 @@ Jordy is Bobby's oldest grandchild — the one who gave him the nickname as a ba
         name: "Callie DePina",
         role: "Co-Founder · Run Coaching · Strength Training",
         bio: `
-Callie built Have Fun Athletics with her husband John and her nephew Jordy. That's either a great business plan or a very good excuse to spend more time with her favorite people. Probably both.
+Callie built Have Fun Athletics with her husband, John, and her nephew, Jordy. That's either a great business plan or a very good excuse to spend more time with her favorite people. Probably both.
 
-Her own relationship with fitness has taken her everywhere. From India to practice yoga, to Berlin, Boston, and Barcelona (so far!) to run marathons. She doesn't dabble — she dives in, and that's what led her to find a running coach and discover what she's capable of with someone in her corner and guiding her.
+Her own relationship with fitness has taken her everywhere. From India to practice yoga, to Berlin, Boston, and Barcelona (so far!) to run marathons. She doesn't dabble — she dives in, and that's what led her to find a running coach and discover what she's capable of with someone in her corner and guiding her. She aims to bring that same guidance to other young athletes with Have Fun.
 
 This brand exists so other young athletes can discover what good training actually feels like. The note at the top of this page is one of many her dad Bobby left for her. She kept every one.
         `,
