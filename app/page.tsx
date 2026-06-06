@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <main className="snap-y snap-mandatory overflow-y-scroll h-screen">
+      <main className="snap-y snap-mandatory overflow-y-scroll h-dvh">
 
         {/* ── HERO ── */}
         <section
-          className="snap-start h-screen flex flex-col justify-end relative overflow-hidden"
+          className="snap-start min-h-dvh flex flex-col justify-end relative overflow-hidden"
           style={{ background: "var(--d950)" }}
         >
           <div
@@ -69,7 +69,7 @@ export default function Home() {
 
         {/* ── WHAT WE'RE BUILDING ── */}
         <section
-          className="snap-start h-screen flex flex-col justify-center px-6 py-16 md:px-16"
+          className="snap-start min-h-dvh flex flex-col justify-center px-6 py-16 md:px-16"
           style={{ background: "var(--d900)" }}
         >
           <div className="max-w-5xl w-full mx-auto">
@@ -115,7 +115,7 @@ export default function Home() {
 
         {/* ── SUMMER PROGRAM ── */}
         <section
-          className="snap-start h-screen flex flex-col justify-end relative overflow-hidden"
+          className="snap-start min-h-dvh flex flex-col justify-end relative overflow-hidden"
           style={{ background: "var(--d950)" }}
         >
           <div className="absolute inset-0">
@@ -166,7 +166,7 @@ export default function Home() {
 
         {/* ── PHILOSOPHY ── */}
         <section
-          className="snap-start h-screen flex flex-col justify-center px-6 py-16 md:px-16"
+          className="snap-start min-h-dvh flex flex-col justify-center px-6 py-16 md:px-16"
           style={{ background: "var(--d950)" }}
         >
           <div className="max-w-5xl w-full mx-auto">
@@ -220,7 +220,7 @@ export default function Home() {
         </section>
 
         {/* ── REGISTER + FOOTER ── */}
-        <div className="snap-start h-screen flex flex-col">
+        <div className="snap-start min-h-dvh flex flex-col">
           <div
             className="flex-1 flex flex-col justify-center px-6 py-12 md:px-16"
             style={{ background: "var(--coral)" }}
