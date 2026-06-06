@@ -95,8 +95,11 @@ export const programs = {
     {
       label: "Summer 2026",
       name: "Performance Training",
-      description:
-        "Our inaugural program. Outdoor athletic training for athletes in grades 5–12 built to make them faster, stronger, and more confident — and make them want to come back.\n\nWe train the whole athlete. Speed, agility, strength, conditioning, and the mental habits that separate good athletes from great ones.",
+      description: `
+Our inaugural program. Outdoor athletic training for athletes in grades 5–12 built to make them faster, stronger, and more confident — and make them want to come back.
+
+We train the whole athlete. Speed, agility, strength, conditioning, and the mental habits that separate good athletes from great ones.
+      `,
       schedule: "Thursdays · Grades 5–8: 5:00–5:45pm / Grades 9–12: 6:00–7:00pm",
       pricing: "$20/session drop-in · First class free · Pay by Venmo on site",
       tags: ["Grades 5–12", "Winthrop, MA", "Outdoor Sessions", "Summer 2026"],
@@ -105,8 +108,11 @@ export const programs = {
     {
       label: "Specialty Coaching",
       name: "Baseball Coaching",
-      description:
-        "Serious development for serious baseball players. No gimmicks, no shortcuts — just discipline, consistency, and the mental toughness it takes to compete at the next level.\n\nPitching, hitting, fielding, strength, mindset. Whether you're staying sharp through the summer or pushing to get to the next level, we'll build a plan around where you are and where you're going.",
+      description: `
+Serious development for serious baseball players. No gimmicks, no shortcuts — just discipline, consistency, and the mental toughness it takes to compete at the next level.
+
+Pitching, hitting, fielding, strength, mindset. Whether you're staying sharp through the summer or pushing to get to the next level, we'll build a plan around where you are and where you're going.
+      `,
       schedule: "",
       pricing: "",
       tags: ["All Ages", "Winthrop, MA", "Individual & Group"],
@@ -115,8 +121,11 @@ export const programs = {
     {
       label: "All Ages · All Levels",
       name: "Personal Training & Small Groups",
-      description:
-        "Not everyone trains the same way. For athletes and adults who want focused, personalized coaching — one-on-one or in a small group — we've got you.\n\nGeneral fitness, athletic development, strength and conditioning. Whatever the goal, we'll build around it.",
+      description: `
+Not everyone trains the same way. For athletes and adults who want focused, personalized coaching — one-on-one or in a small group — we've got you.
+
+General fitness, athletic development, strength and conditioning. Whatever the goal, we'll build around it.
+      `,
       schedule: "",
       pricing: "",
       tags: ["All Ages", "1-on-1 & Small Group", "Year Round"],
@@ -162,8 +171,16 @@ export const about = {
   story: {
     label: "The Origin",
     headline: "Built On A Philosophy.",
-    body: "Have Fun Athletics is built on the philosophy of Hank Smith — known to almost everyone simply as Bobby, a nickname that started with his oldest grandchild as a baby and spread to everyone whose life he touched.\n\nBobby was a husband, father, grandfather, athlete, and the kind of person who showed up — fully — for everyone around him. In the moments that counted, he had a way of sending people off the same way. Two words. Before a tennis match. One of many.\n\nOver time, those two words became more than a sign-off. They became a family philosophy — passed from one generation to the next, shared with the athletes, teammates, friends, and community members whose lives Bobby touched.\n\nHave Fun Athletics exists to carry that forward. Not as a slogan. As a standard.",
-    attribution: "Hank \"Bobby\" Smith",
+    body: `
+Have Fun Athletics is built on the philosophy of Hank Smith — known to almost everyone simply as Bobby, a nickname that started with his oldest grandchild as a baby and spread to everyone whose life he touched.
+
+Bobby was the kind of person who showed up — fully — for everyone around him. In the moments that counted, he had a way of sending people off the same way. Two words. "Have fun!!"
+
+Over time, those two words, and his iconic handwriting, became more than a sign-off. They became a family philosophy — passed from one generation to the next, shared with athletes, teammates, friends, and community.
+
+Have Fun Athletics exists to carry that forward. Not as a slogan. As a standard.
+    `,
+    attribution: `Hank "Bobby" Smith`,
     noteImage: "/about_01.jpeg",
     beliefs: [
       {
@@ -191,7 +208,11 @@ export const about = {
       {
         name: "John DePina",
         role: "Performance Training · Personal Coaching",
-        bio: "John grew up in Cape Verde, where soccer was everything. He moved to the US at 14, earned All-Star and MVP honors his senior year, then played D1 soccer at West Virginia University and D3 at Massachusetts College of Liberal Arts, with time as a semi-professional player along the way.\n\nInjuries from years of high-level play forced him to get intentional — the right muscles, footwork, agility, mobility. He didn't get that kind of training until college, and believes that gap contributed to the injuries. It's a big part of why this work matters so much for younger athletes.",
+        bio: `
+John grew up in Cape Verde, where soccer was everything. He moved to the US at 14, earned All-Star and MVP honors his senior year, then played D1 soccer at West Virginia University and D3 at Massachusetts College of Liberal Arts, with time as a semi-professional player along the way.
+
+Injuries from years of high-level play forced him to get intentional — the right muscles, footwork, agility, mobility. He didn't get that kind of training until college, and believes that gap contributed to the injuries. It's a big part of why this work matters so much for younger athletes.
+        `,
         cta: { label: "Learn about personal training →", href: "/programs" },
         image: "/about_03.jpeg", // John DePina training
         objectPosition: "top",
@@ -199,7 +220,11 @@ export const about = {
       {
         name: "Jordy Allard",
         role: "Baseball Coaching · Performance Training",
-        bio: "Jordy grew up on a farm in Woodstock, Vermont and figured out early that creativity and hard work beat shortcuts every time. He pitched at every NCAA division, including Northeastern University, and played in the Cape Cod Baseball League in 2022. He also founded Primal Baseball, an online training program built on discipline, consistency, and mental toughness.\n\nJordy is Bobby's oldest grandchild — the one who gave him the nickname as a baby, and the one Bobby traveled across the country to watch play. Baseball was their bond. Coaching is how he carries that forward.",
+        bio: `
+Jordy grew up on a farm in Woodstock, Vermont and figured out early that creativity and hard work beat shortcuts every time. He pitched at every NCAA division, including Northeastern University, and played in the Cape Cod Baseball League in 2022. He also founded Primal Baseball, an online training program built on discipline, consistency, and mental toughness.
+
+Jordy is Bobby's oldest grandchild — the one who gave him the nickname as a baby, and the one Bobby traveled across the country to watch play. Baseball was their bond. Coaching is how he carries that forward.
+        `,
         cta: { label: "Learn about baseball coaching →", href: "/programs" },
         image: "/about_02.jpeg", // Jordy Allard pitching
         objectPosition: "top",
@@ -207,7 +232,13 @@ export const about = {
       {
         name: "Callie DePina",
         role: "Founder · Have Fun Athletics",
-        bio: "Tennis was Callie's sport growing up. She played at Tufts University, where she quickly realized she'd been a big fish in a small pond — and found running. She's been at it ever since.\n\nOver the years she practiced Mysore-style Ashtanga yoga, traveling to India to deepen her practice. A few years ago she ran the Berlin Marathon and caught the racing bug — Boston followed, then Barcelona. She works with a coach and has found enormous value in guided training, even with decades of athletic experience behind her.\n\nBefore every tennis match in high school, her dad left her something — a note, a clipping, a quote. He kept it up through college. The handwriting that runs through this brand is his. Have Fun Athletics is built on everything he taught her.",
+        bio: `
+Tennis was Callie's sport growing up. She played at Tufts University, where she quickly realized she'd been a big fish in a small pond — and found running. She's been at it ever since.
+
+Over the years she practiced Mysore-style Ashtanga yoga, traveling to India to deepen her practice. A few years ago she ran the Berlin Marathon and caught the racing bug — Boston followed, then Barcelona. She works with a coach and has found enormous value in guided training, even with decades of athletic experience behind her.
+
+Before every tennis match in high school, her dad left her something — a note, a clipping, a quote. He kept it up through college. The handwriting that runs through this brand is his. Have Fun Athletics is built on everything he taught her.
+        `,
         cta: null,
         image: "/about_04.jpeg", // Callie DePina racing
         objectPosition: "center",

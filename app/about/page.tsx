@@ -102,13 +102,13 @@ export default function AboutPage() {
         </div>
 
         {/* ── STORY ── */}
-        <div id="story" className="px-5 py-10 md:px-10" style={{ background: "var(--d950)" }}>
+        <div id="story">
 
-          {/* Two-column block: d900 background only behind title + image */}
-          <div
-            className="flex flex-col md:flex-row md:items-center mb-8 p-6 md:p-8 rounded-sm"
-            style={{ background: "var(--d900)" }}
-          >
+          {/* Story block — d900 background */}
+          <div className="px-5 py-10 md:px-10" style={{ background: "var(--d900)" }}>
+
+          {/* Two-column block: title + image */}
+          <div className="flex flex-col md:flex-row md:items-center mb-8">
             {/* Eyebrow + Headline — vertically centered, left half */}
             <div className="mb-6 md:mb-0 md:flex-1">
               <span
@@ -155,16 +155,10 @@ export default function AboutPage() {
                 {para}
               </p>
             ))}
-            <p
-              className="mt-3 text-sm italic"
-              style={{ color: "var(--g500)" }}
-            >
-              — {story.attribution}
-            </p>
           </div>
 
           {/* Bobby's handwriting */}
-          <div className="relative w-full max-w-xs h-16 mb-8">
+          <div className="relative w-full max-w-xs h-16 mb-4">
             <Image
               src="/handwriting-bobby-white.svg"
               alt="Bobby's handwriting"
@@ -172,8 +166,17 @@ export default function AboutPage() {
               className="object-contain object-left"
             />
           </div>
+            <p
+              className="text-sm italic"
+              style={{ color: "var(--g500)" }}
+            >
+              — {story.attribution}
+            </p>
 
-          {/* Beliefs */}
+          </div>{/* end d900 story block */}
+
+          {/* Beliefs — back on d950 */}
+          <div className="px-5 py-10 md:px-10" style={{ background: "var(--d950)" }}>
           <h3
             className="mb-4 text-2xl tracking-[0.04em]"
             style={{ fontFamily: "var(--font-bebas)", color: "var(--l50)" }}
@@ -207,7 +210,8 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-        </div>
+          </div>{/* end d950 beliefs block */}
+        </div>{/* end story section */}
 
         {/* ── TEAM ── */}
         <div
