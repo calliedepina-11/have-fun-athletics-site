@@ -18,7 +18,7 @@ export default function NewsletterPage() {
     e.preventDefault();
     setStatus("submitting");
     try {
-      const res = await fetch("https://formspree.io/f/REPLACE_WITH_NEWSLETTER_FORMSPREE_ID", {
+      const res = await fetch("https://formspree.io/f/xojzeark", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(form),
